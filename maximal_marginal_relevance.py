@@ -23,7 +23,7 @@ vector_store = FAISS.from_documents(
 
 retriever = vector_store.as_retriever(
     search_type="mmr",
-    search_kwargs={"k": 3, "lambda_mult": 0.5}
+    search_kwargs={"k": 3, "lambda_mult": 1}
 )
 
 query = "What is LangChain?"
