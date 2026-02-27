@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 documents = [
-      Document(page_content="LangChain helps developers build LLM applications easily."),
+    Document(page_content="LangChain helps developers build LLM applications easily."),
     Document(page_content="Chroma is a vector database optimized for LLM-based search."),
     Document(page_content="Embeddings convert text into high-dimensional vectors."),
     Document(page_content="OpenAI provides powerful embedding models.")
